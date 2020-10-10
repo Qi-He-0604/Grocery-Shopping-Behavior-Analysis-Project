@@ -10,7 +10,7 @@ o hh_income: Integer indicating the income bracket\
 o hh_size: integer indicating the number of members composing the household\
 o hh_zip_code: 5 digits zipcode coded as integer\
 o hh_state: 2 character abbreviation of the state\
-o hh_residence_type\
+o hh_residence_type
 
 ### Products Data File:
 o brand_at_prod_id\
@@ -19,7 +19,7 @@ o prod_id (PK)\
 o group_at_prod_id\
 o module_at_prod_id\
 o amount_at_prod_id\
-o units_at_prod_id\
+o units_at_prod_id
 ## Trips Data File:
 o hh_id (FK)\
 o TC_date\
@@ -34,7 +34,7 @@ o quantity_at_TC_prod_id\
 o total_price_paid_at_TC_prod_id\
 o coupon_value_at_TC_prod_id\
 o deal_flag_at_TC_prod_id\
-o prod_id (FK)\
+o prod_id (FK)
 
 ## In this project, I tried to answer the following questions:
 ### a. How many:
@@ -50,13 +50,11 @@ i. Total transactions and transactions realized under some kind of promotion.
 1. How many households do not shop at least once on a 3 month periods.
 i. Is it reasonable?\
 ii. Why do you think this is occurring?
-2. Loyalism: Among the households who shop at least once a month, which % of them
-concentrate at least 80% of their grocery expenditure (on average) on single retailer? And
-among 2 retailers?  
+2. Loyalism: Among the households who shop at least once a month, which % of them concentrate at least 80% of their grocery expenditure (on average) on single retailer? And among 2 retailers?\
 i. Are their demographics remarkably different? Are these people richer? Poorer?\
 ii. What is the retailer that has more loyalists?\
 iii. Where do they live? Plot the distribution by state.
-3. Plot with the distribution:
+3. Plot with the distribution:\
 i. Average number of items purchased on a given month.\
 ii. Average number of shopping trips per month.\
 iii. Average number of days between 2 consecutive shopping trips.
@@ -65,7 +63,7 @@ iii. Average number of days between 2 consecutive shopping trips.
 purchased?
 2. Is the average price paid per item correlated with the number of items purchased?
 3. Private Labeled products are the products with the same brand as the supermarket. In
-the data set they appear labeled as ‘CTL BR’
+the data set they appear labeled as ‘CTL BR’\
 i. What are the product categories that have proven to be more “Private labelled”\
 ii. Is the expenditure share in Private Labeled products constant across months?\
 iii. Cluster households in three income groups, Low, Medium and High. Report the

@@ -3,9 +3,9 @@ Constructed a database based on data files and analyzed customer's shopping beha
 
 There are 4 data files containing the following information:
 ### Households Data File:  
-o hh_id: long integer (PK)
-o hh_race: integer
-o is_latinx: Integer indicating whether
+o hh_id: long integer (PK)/
+o hh_race: integer/
+o is_latinx: Integer indicating whether/
 o hh_income: Integer indicating the income bracket.
 o hh_size: integer indicating the number of members composing the household.
 o hh_zip_code: 5 digits zipcode coded as integer

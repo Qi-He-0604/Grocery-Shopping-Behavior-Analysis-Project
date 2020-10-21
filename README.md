@@ -20,7 +20,7 @@ o group_at_prod_id\
 o module_at_prod_id\
 o amount_at_prod_id\
 o units_at_prod_id
-## Trips Data File:
+### Trips Data File:
 o hh_id (FK)\
 o TC_date\
 o TC_retailer_code\
